@@ -52,7 +52,19 @@ main {
 
 .button {
     padding: 1rem;
-    background-color: orange;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    text-align: center; 
+    border-radius: 25px;
+    min-height: 50px;
+}
+
+.button:hover{
+    background-color: rgb(43, 132, 248);
+}
+
+.tertiary-button:hover {
+    color: rgb(88, 157, 248);  
 }
 
 .tertiary-button {
@@ -149,6 +161,39 @@ hr {
 .order-summary > ul li:nth-child(1) {
     border-top: 1px solid rgb(200, 200, 200);
     margin-top: 10px;
+}
+
+#close-button {
+    background-color: rgba(195, 195, 195, 0.6);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: 320px;
+
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#close-button:hover {
+    background-color: rgb(195, 195, 195);
+    cursor: pointer;
+}
+
+.item-container {
+    background-color: rgb(186, 186, 186);
+    border-radius: 10px;
+
+    margin: 40px auto;
+    width: 200px;
+    height: 150px;
+
+    display: flex;
 }
 
 .img-container {
