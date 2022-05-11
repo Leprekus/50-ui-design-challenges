@@ -64,7 +64,8 @@ main {
 }
 
 .tertiary-button:hover {
-    color: rgb(88, 157, 248);  
+    color: rgb(88, 157, 248);
+    cursor: pointer;  
 }
 
 .tertiary-button {
@@ -95,6 +96,10 @@ main {
 
     cursor: pointer;
 
+}
+
+.payment-option:hover {
+    box-shadow: 0 0 4px rgba(149, 149, 149, 0.5);
 }
 
 .current-payment-option {
